@@ -1,0 +1,10 @@
+*{
+    font-family: 'Karla','Comforter', cursive,sans-serif;
+}
+#root{
+    background-color: #fcfeff;
+}
+.custom-bg{
+    background-color: #fcfeff;
+    color:black;
+}
