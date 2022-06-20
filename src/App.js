@@ -14,6 +14,8 @@ import Home from './components/Home';
 import Login from './components/Login';
 import Restaurants from './components/Restaurants';
 import Footer from './components/footer/Footer';
+import ForgotPassword from './components/login/ForgotPassword';
+import Register from './components/login/Register';
 
 function App() {
   return (
@@ -51,10 +53,12 @@ function App() {
         <Route path="/food" element={<Food/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/restaurants" element={<Restaurants/>}/>
+        <Route path="/ForgotPassword" element={<ForgotPassword/>}/>
+        <Route path="/Register" element={<Register/>}/>
       </Routes>
     </div>
 
-<Footer></Footer>
+<Footer></Footer> 
     </div>
     </BrowserRouter>
   );
